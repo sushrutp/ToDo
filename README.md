@@ -13,7 +13,7 @@ Todo App lets you add , delete ,complete the todo items.
 
 Its a simple web interface
 
-![todo-app](https://github.com/sushrutp/ToDo/images/todo-app.jpg?branch=main)
+![todo-app](images/todo-app.jpg)
 ## Appendix
 
 Any additional information goes here
@@ -248,7 +248,7 @@ When not found
     - [prove](https://perldoc.perl.org/prove)
 
 ## lighthouse benchmark
-![todo-app-lighthouse-desktop-perf](https://github.com/sushrutp/ToDo/images/todo-app-lighthouse-desktop-perf.png?branch=main)
+![todo-app-lighthouse-desktop-perf](/images/todo-app-lighthouse-desktop-perf.png)
 ## Authors
 
 - [@sushrutp](https://www.github.com/sushrutp)
