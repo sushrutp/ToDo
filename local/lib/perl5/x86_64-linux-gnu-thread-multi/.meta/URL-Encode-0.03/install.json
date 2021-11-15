@@ -1,0 +1,1 @@
+{"dist":"URL-Encode-0.03","pathname":"C/CH/CHANSEN/URL-Encode-0.03.tar.gz","target":"URL::Encode","name":"URL::Encode","version":"0.03","provides":{"URL::Encode::PP":{"version":"0.03","file":"lib/URL/Encode/PP.pm"},"URL::Encode":{"version":"0.03","file":"lib/URL/Encode.pm"}}}
