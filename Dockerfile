@@ -41,7 +41,6 @@ RUN cpm install --with-develop --no-show-progress --workers=10 --retry --global 
 ## copies app files as the last step so that every step above is cached
 COPY . ${WORKDIR}
 
-
 RUN ["prove", "-rv", "t/"]
 
 EXPOSE ${DANCER_PORT}

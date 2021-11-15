@@ -152,6 +152,8 @@ sub update_todo_item {
     my $res= $self->db_con->do($sql, {}, $reference_id);
 
     if (defined $res) {
+        $res = 0 if ($res eq '0E0');
+
         $self->utils_obj->print_log("data updated successful reference_id => ". $reference_id,'info');
     } else {
         $self->utils_obj->print_log("unable to update todo item for reference id ". $reference_id,'error');
@@ -196,6 +198,8 @@ sub delete_todo_item {
     my $res =  $self->db_con->do($sql, {}, $reference_id);
 
     if (defined $res) {
+        $res = 0 if ($res eq '0E0');
+
         $self->utils_obj->print_log("data deleted successful reference_id => ". $reference_id,'info');
     } else {
         $self->utils_obj->print_log("unable to delete todo item for reference id ". $reference_id,'error');
